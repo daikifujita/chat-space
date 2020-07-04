@@ -21,8 +21,8 @@
 ## users_groups テーブル
 |Column|Type|Options|
 |------|----|-------|
-|user-id|integer|null: false, foreign_key: true|
-|group-id|integer|null: false, foreign_key: true|
+|user_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
 - belongs_to :group
@@ -32,8 +32,8 @@
 |------|----|-------|
 |text|text||
 |image|text||
-|user-id|integer|null: false, foreign_key: true|
-|group-id|integer|null: false, foreign_key: true|
+|user_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
 - belongs_to :group
