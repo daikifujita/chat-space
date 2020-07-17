@@ -12,6 +12,6 @@ CarrierWave.configure do |config|
     region: 'ap-northeast-1'
   }
 
-  config.fog_directory  = 'practicechatspa'
-  config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/practicechatspa'
+  config.fog_directory  = 'chatspacesecond'
+  config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/chatspacesecond'
 end
